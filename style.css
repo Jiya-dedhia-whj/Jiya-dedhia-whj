@@ -1,82 +1,89 @@
-body {
+body{
     text-align: center;
-    background: linear-gradient(#90e0f5 0% ,#3f2acb 50% ,#d100ff 100% );
-    background-repeat: no-repeat;
+    background: linear-gradient( #4287f5 0%,#4bf542 100%);
 }
-
-
-
-
-
 
 img{
+  width:100;
+  height:100;
     border-radius: 50%;
-    width:500px;
-    margin-top: 150px;
+    
 }
-
-
-
-
-
-
+#myname{
+   font-family: 'Courgette', cursive;
+}
+#Favorite_food{
+     padding:40px;
+    text-align:center:
+}
 h1{
-  text-shadow: 2px 2px #F8BBD0  ;
-  font-size: 40px;
+  
+  font-size:18px;
 }
-
-
-
-
-
 p{
-  font-size: 20px;
-  color: black;
+  font-size:18px;
+  color:#6A1B9A;
+    
+}
+h2{
+  font-size:20px;
+  color:#003487;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width:70px;
+    margin:8px auto;
 }
 
-
-
-.parallax-inner {
-    display: table-cell; 
-    position: relative;
-    text-align: center;
-    vertical-align: middle; 
-}
-
-
-
-
-
-.menu{
-    list-style: none;
-    position:absolute;
-    z-index: 10;
-    top :10px;
+#menu{
+   list-style: none;
+    font-family:cursive;
+   float:right;
+    position: fixed;
+    top:10px;
     right:30px;
-    cursor:pointer;
+    cursor: pointer;
+    color:black;
 }
-
+.menu a{
+    color:black !important;
+}
 
 
 .links{
-    float:right;
-    padding-top:10px;
-    padding-left:10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    font-style:italic;
-    font-size:20px;
+    color:crimson;
+    display: inline;
+    padding-top:5px;
+    padding-left:9px;
+    padding-right:9px;
+    padding-bottom: 5px;
+}
+   .link:hover{
+    background-color:beige;
 }
 
 
 
-
-
-
-.links:hover{
-background-color: dodgerblue;
-    font-size: 25px; 
+#picture{
+    width:auto;
+    height:300px;
+   border-radius:0%;
+    
+    margin:20px;
+}
+#fastfood
+{
+  background: #373B44; 
+ background: linear-gradient( #4286f4, #373B44); 
+padding-top:20px;
 }
 
+img {
+transition: transform .2s;
+border: 10px solid #AAAAAA;
+}
 
-
+img:hover {
+    transform: scale(0.9 );
+}
