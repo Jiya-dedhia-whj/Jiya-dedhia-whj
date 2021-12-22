@@ -1,42 +1,89 @@
-.menu{
+body{
+    text-align: center;
+    background: linear-gradient( #4287f5 0%,#4bf542 100%);
+}
+
+img{
+  width:100;
+  height:100;
+    border-radius: 50%;
+    
+}
+#myname{
+   font-family: 'Courgette', cursive;
+}
+#Favorite_food{
+     padding:40px;
+    text-align:center:
+}
+h1{
   
-  
-    position: absolute;
-    top: 10px;
+  font-size:18px;
+}
+p{
+  font-size:18px;
+  color:#6A1B9A;
+    
+}
+h2{
+  font-size:20px;
+  color:#003487;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width:70px;
+    margin:8px auto;
+}
+
+#menu{
+   list-style: none;
+    font-family:cursive;
+   float:right;
+    position: fixed;
+    top:10px;
     right:30px;
-    z-index:10;
-    cursor:pointer;
+    cursor: pointer;
+    color:black;
+}
+.menu a{
+    color:black !important;
 }
 
 
 .links{
-  
-    float: left;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+    color:crimson;
+    display: inline;
+    padding-top:5px;
+    padding-left:9px;
+    padding-right:9px;
     padding-bottom: 5px;
-    font-family: fantasy;
-    font-size: 20px;
 }
-body {
-    margin: 0;
-    text-align: center;
-    background:linear-gradient(#f4c2c2 0%, white 100%);
+   .link:hover{
+    background-color:beige;
 }
-img{
-  height:300px;
-  width:600px;
-  border-radius:50%;
-  border:black solid;
+
+
+
+#picture{
+    width:auto;
+    height:300px;
+   border-radius:0%;
+    
+    margin:20px;
 }
-#intro{
-  padding-left:500px;
-  padding-right:500px;
-  line-height:2;
-  font-size:18px;
+#fastfood
+{
+  background: #373B44; 
+ background: linear-gradient( #4286f4, #373B44); 
+padding-top:20px;
 }
-#brand{
-  font-size:100px;
-    font-family: 'Are You Serious', cursive;
+
+img {
+transition: transform .2s;
+border: 10px solid #AAAAAA;
+}
+
+img:hover {
+    transform: scale(0.9 );
 }
